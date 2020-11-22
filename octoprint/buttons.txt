@@ -1,0 +1,13 @@
+controls:
+-   children:
+    -   command: QUAD_GANTRY_LEVEL
+        name: QGL
+    -   command: SET_PIN PIN=caselight value=10
+        confirm: null
+        name: Lights On
+    -   command: SET_PIN PIN=caselight value=0
+        name: Lights Off
+    -   command: WAKE_UP
+        name: Wake Up
+    layout: horizontal
+    name: Controls
